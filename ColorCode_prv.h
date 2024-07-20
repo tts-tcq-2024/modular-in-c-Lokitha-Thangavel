@@ -1,7 +1,7 @@
 
 extern int GetPairNumberFromColor(const ColorPair* colorPair);
-extern int GetPairNumberFromColor(const ColorPair* colorPair)
-extern void ColorPairToString(const ColorPair* colorPair, char* buffer)
+extern int GetPairNumberFromColor(const ColorPair* colorPair);
+extern void ColorPairToString(const ColorPair* colorPair, char* buffer);
 extern void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum MinorColor expectedMinor);
 extern void testPairToNumber(enum MajorColor major, enum MinorColor minor, int expectedPairNumber);
 
@@ -25,3 +25,5 @@ typedef struct {
     enum MajorColor majorColor;
     enum MinorColor minorColor;
 } ColorPair;
+
+extern ColorPair GetColorFromPairNumber(int pairNumber);
