@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "ColorCode_prv.h"
 
 int GetPairNumberFromColor(const ColorPair* colorPair) 
