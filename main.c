@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <assert.h> 
 #include "ColorCode_prv.h"
 
 int main() {
