@@ -17,6 +17,7 @@ extern const int MAX_COLORPAIR_NAME_CHARS;
 extern int numberOfMinorColors;
 
 extern int GetPairNumberFromColor(const ColorPair* colorPair);
+extern ColorPair GetColorFromPairNumber(int pairNumber) 
 extern void testNumberToPair(int pairNumber, enum MajorColor expectedMajor, enum MinorColor expectedMinor);
 extern void testPairToNumber(enum MajorColor major, enum MinorColor minor, int expectedPairNumber);
 extern void printColorReferenceManual();
